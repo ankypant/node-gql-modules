@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["./src/index.ts"],
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "outDir": "dist"
+  }
+}
