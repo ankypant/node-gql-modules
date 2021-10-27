@@ -1,0 +1,8 @@
+type Movies {
+  title: String
+  rating: String
+}
+
+extend type Query {
+  movies: [Movies]
+}

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ankypant/node-gql-modules#readme",
   "dependencies": {
+    "@graphql-tools/load-files": "^6.5.2",
     "apollo-server": "^3.4.0",
     "graphql": "^15.7.1",
     "graphql-modules": "^1.4.4"
