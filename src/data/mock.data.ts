@@ -1,4 +1,6 @@
-export const books = [
+import { Book, Movies } from '../models/types';
+
+export const books: Book[] = [
   {
     title: 'The Awakening',
     author: 'Kate Chopin',
@@ -9,7 +11,7 @@ export const books = [
   },
 ];
 
-export const movieList = [
+export const movieList: Movies[] = [
   {
     title: 'Harry Potter',
     rating: 8.5,
