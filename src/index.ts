@@ -4,9 +4,9 @@ import {
   ApolloServerPluginLandingPageGraphQLPlayground,
   ApolloServerPluginLandingPageDisabled,
 } from 'apollo-server-core';
-import { application } from './modules';
+import { applicationGQLModules } from './modules/modules';
 
-const schema = application.createSchemaForApollo();
+const schema = applicationGQLModules.createSchemaForApollo();
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
