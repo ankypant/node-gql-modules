@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node-dev ./src/index.ts",
-    "generate": "graphql-codegen"
+    "start": "ts-node-dev ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,10 +20,7 @@
     "@graphql-tools/load-files": "^6.5.2",
     "apollo-server": "^3.4.0",
     "graphql": "^15.7.1",
-    "graphql-modules": "^1.4.4",
-    "@graphql-codegen/cli": "^2.2.1",
-    "@graphql-codegen/typescript": "^2.2.4",
-    "graphql-codegen": "^0.4.0"
+    "graphql-modules": "^1.4.4"
   },
   "devDependencies": {
     "prettier": "2.4.1",
