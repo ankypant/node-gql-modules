@@ -1,0 +1,9 @@
+schema: ./src/modules/**/*.graphql
+documents: ./src/modules/**/*.graphql
+overwrite: true
+generates:
+  ./src/models/types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - introspection
