@@ -7,5 +7,5 @@ export const booksModule = createModule({
   id: 'book-module',
   dirname: __dirname,
   typeDefs: loadFilesSync(path.join(__dirname, './*.graphql')),
-  resolvers: booksResolver,
+  resolvers: booksResolver
 });
