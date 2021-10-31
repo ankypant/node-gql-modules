@@ -1,4 +1,4 @@
-import { Book, Movies } from '../models/types';
+import { Book, Movies } from '../generated/graphql';
 
 export const books: Book[] = [
   {
@@ -14,14 +14,25 @@ export const books: Book[] = [
 export const movieList: Movies[] = [
   {
     title: 'Harry Potter',
-    rating: 8.5,
+    rating: '8.5',
   },
   {
     title: 'Lord of the rings',
-    rating: 9.1,
+    rating: '9.1',
   },
   {
     title: 'God father',
-    rating: 9.7,
+    rating: '9.7',
+  },
+];
+
+export const tvSeries = [
+  {
+    title: 'Supernatural',
+    rating: '9.7',
+  },
+  {
+    title: '',
+    rating: '9.7',
   },
 ];
