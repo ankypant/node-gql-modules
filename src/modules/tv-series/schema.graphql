@@ -1,8 +1,8 @@
-type Book {
+type tvSeries {
   title: String
   author: String
 }
 
 type Query {
-  books: [Book]
+  tvSeries: [tvSeries]
 }
