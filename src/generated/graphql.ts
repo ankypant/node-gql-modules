@@ -27,4 +27,11 @@ export type Query = {
   __typename?: 'Query';
   books?: Maybe<Array<Maybe<Book>>>;
   movies?: Maybe<Array<Maybe<Movies>>>;
+  tvSeries?: Maybe<Array<Maybe<TvSeries>>>;
+};
+
+export type TvSeries = {
+  __typename?: 'tvSeries';
+  author?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
 };
